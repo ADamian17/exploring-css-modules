@@ -1,0 +1,10 @@
+.btn__with-arrow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  & svg {
+    height: 24px;
+    fill: currentColor;
+  }
+}

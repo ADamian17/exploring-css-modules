@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import { Button, ButtonWithArrow } from "./components/UI/Buttons";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{
+      display: 'grid',
+      justifyItems: 'center',
+      alignContent: 'center',
+      rowGap: '10px',
+      minHeight: '100vh'
+    }}>
+      <Button variant="btn__secondary" text="Start for free" />
+
+      <ButtonWithArrow 
+        variant="btn__primary" 
+        text="Start for free"
+        otherClasses={['btn__with-arrow']} />
     </div>
   );
 }
