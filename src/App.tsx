@@ -1,24 +1,30 @@
-import React from "react";
+import React from 'react';
 
-import { Button, ButtonWithArrow } from "./components/UI/Buttons";
+import { Button } from 'ad-bulma-react';
 
 const App: React.FC = () => {
   return (
-    <div className="App" style={{
-      display: 'grid',
-      justifyItems: 'center',
-      alignContent: 'center',
-      rowGap: '10px',
-      minHeight: '100vh'
-    }}>
-      <Button variant="btn__secondary" text="Start for free" />
-
-      <ButtonWithArrow 
-        variant="btn__primary" 
-        text="Start for free"
-        otherClasses={['btn__with-arrow']} />
+    <div
+      className="App"
+      style={{
+        display: 'grid',
+        justifyItems: 'center',
+        alignContent: 'center',
+        rowGap: '10px',
+        minHeight: '100vh',
+      }}
+    >
+      <div className='buttons'>
+      <Button variant='is-danger'>my button</Button>
+      <Button variant='is-success'>my button</Button>
+      <Button variant='is-info'>my button</Button>
+      <Button variant='is-dark'>my button</Button>
+      <Button variant='is-ghost'>my button</Button>
+      <Button variant='is-warning'>my button</Button>
+      <Button variant='is-primary'>my button</Button>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

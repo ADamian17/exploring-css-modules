@@ -1,0 +1,40 @@
+.image {
+  position: relative;
+  overflow: hidden;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  &--loader {
+    animation: placeholderShimmer 2s linear infinite;
+    background-color: rgba(71, 69, 69, 0.288);
+    background-image: linear-gradient(
+      to right,
+      #00000014 0,
+      #00000026 15%,
+      #00000014 30%
+    );
+    background-size: 1200px 100%;
+    box-shadow: 0 0 5px 0 #e0e0e0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(3px) saturate(150%);
+    z-index: 5;
+  }
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    backdrop-filter: blur(0) saturate(0);
+  }
+  100% {
+    backdrop-filter: blur(3px) saturate(150%);
+  }
+}

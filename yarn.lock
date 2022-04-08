@@ -2216,6 +2216,11 @@ acorn@^8.2.4, acorn@^8.4.1, acorn@^8.5.0, acorn@^8.7.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
 
+ad-bulma-react@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/ad-bulma-react/-/ad-bulma-react-1.0.10.tgz#d3acade8e900de8cff3ba0b88d5e8cf41737e414"
+  integrity sha512-IDBggUIv9f9lh0XoHwoW9mz87tJz579FmG451/R3KLhW40rg5LcMOi044NtWN1pjzyufKEOqzhh6N9QifylFyA==
+
 address@^1.0.1, address@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
@@ -2733,6 +2738,11 @@ builtin-modules@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.2.0.tgz#45d5db99e7ee5e6bc4f362e008bf917ab5049887"
   integrity sha512-lGzLKcioL90C7wMczpkY0n/oART3MbBa8R9OFGE1rJxoVI86u4WAGfEk8Wjv10eKSyTHVGkSo3bvBylCEtk7LA==
+
+bulma@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.9.3.tgz#ddccb7436ebe3e21bf47afe01d3c43a296b70243"
+  integrity sha512-0d7GNW1PY4ud8TWxdNcP6Cc8Bu7MxcntD/RRLGWuiw/s0a9P+XlH/6QoOIrmbj6o8WWJzJYhytiu9nFjTszk1g==
 
 bytes@3.0.0:
   version "3.0.0"
