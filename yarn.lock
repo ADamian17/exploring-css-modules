@@ -2216,10 +2216,10 @@ acorn@^8.2.4, acorn@^8.4.1, acorn@^8.5.0, acorn@^8.7.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
 
-ad-bulma-react@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/ad-bulma-react/-/ad-bulma-react-1.0.10.tgz#d3acade8e900de8cff3ba0b88d5e8cf41737e414"
-  integrity sha512-IDBggUIv9f9lh0XoHwoW9mz87tJz579FmG451/R3KLhW40rg5LcMOi044NtWN1pjzyufKEOqzhh6N9QifylFyA==
+ad-bulma-react@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ad-bulma-react/-/ad-bulma-react-1.1.2.tgz#fc9aa0f43547db8e1a9bbc38e8a74310a286a13a"
+  integrity sha512-n1Oq1bOScra1yZ8q+q6uNeTJLTfVRGJ3YYR7w1qpY+F/3edvCpaAB9ZFVFtcjScGm0dYG8OBMgha2SCqFFn0Ow==
 
 address@^1.0.1, address@^1.1.2:
   version "1.1.2"
